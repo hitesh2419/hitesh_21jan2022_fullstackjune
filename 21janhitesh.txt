@@ -1,0 +1,46 @@
+Q1=What are generators example for generators (print starting date -todays to 5 days)Using	generators concepts?
+Ans=
+import datetime
+def gen_date():
+  i=0
+  while i<5:
+    yield datetime.date.today() + datetime.timedelta(days=i)
+    i=i+1
+
+for i in gen_date():
+  print(i)
+
+Q2=What are djangosessions?
+Ans=Sessions are the mechanism used by Django (and most of the Internet) for keeping track of the "state" between the site and a particular browser. Sessions allow you to store arbitrary data per browser, and have this data available to the site whenever the browser connects.
+
+Q3=count the number of words preasent in the paragraph given below
+The horizontal offset of the shadow. A positive value puts the shadow on the right side of the box, a negative value puts the shadow on the left side of the box "
+Ans=
+
+Q4=Write a query to find the max marks from the student table?
+Ans=SELECT max( mark ) FROM student
+
+Q5=Write a query to find the second highest marks from student table?
+Ans=SELECT mark FROM student ORDER BY mark DESC LIMIT 1 OFFSET 1
+
+Q6=How can I remove a specific item from an array?
+Ans=const array = [2, 5, 9];
+
+console.log(array);
+
+const index = array.indexOf(5);
+if (index > -1) {
+  array.splice(index, 1);
+}
+
+// array = [2, 9]
+console.log(array); 
+
+let value = 3
+
+let arr = [1, 2, 3, 4, 5, 3]
+
+arr = arr.filter(item => item !== value)
+
+console.log(arr)
+// [ 1, 2, 4, 5 ]
