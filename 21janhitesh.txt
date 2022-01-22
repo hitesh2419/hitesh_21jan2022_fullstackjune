@@ -44,3 +44,28 @@ arr = arr.filter(item => item !== value)
 
 console.log(arr)
 // [ 1, 2, 4, 5 ]
+
+Q7=[0,1,1,1,1,1,1,0,0,0,0,0] find number of 1 and number of 0 from List without using if.. else, 
+module, library .
+Ans=By using sum approach (we can add all the number and by subtracting the sum from the n)
+
+Q8=What is Event Looping?
+Ans=Event loop: An event loop is something that pulls stuff out of the queue and places it onto the function execution stack whenever the function stack becomes empty.
+
+Q9=What is Errorboundry? Why use it and how
+Ans=Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed. Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them.
+
+Q10=What is Rediss?
+Ans=Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker.
+
+Q11=What will indexof return if value is not found?
+Ans=array. indexOf(element) returns the index of the element in the array. Read the official documentation as well. It was designed to return -1 when the element doesn't exist, because 0 would mean that the element is in the 0th index (1st element).
+
+Q12=How many ways to empty an array?
+Ans=arr.splice(0, arr.length)
+
+Q13=Why get is not secure?
+Ans=GET is less secure compared to POST because data sent is part of the URL. So it's saved in browser history and server logs in plaintext. POST is a little safer than GET because the parameters are not stored in browser history or in web server logs. ... POST method used when sending passwords or other sensitive information.
+
+Q14=Difference between mcv and mvp.? What we use generally in django?
+Ans=For MVC, the difference is that the view will get the data from the model class instead of the presenter class in MVP. This method handles the data passing from model to view. In MVP, this is done in the presenter class, and in MVC, it's done in the model class.
