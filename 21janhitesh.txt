@@ -69,3 +69,31 @@ Ans=GET is less secure compared to POST because data sent is part of the URL. So
 
 Q14=Difference between mcv and mvp.? What we use generally in django?
 Ans=For MVC, the difference is that the view will get the data from the model class instead of the presenter class in MVP. This method handles the data passing from model to view. In MVP, this is done in the presenter class, and in MVC, it's done in the model class.
+
+Q15=What are Django cookies?
+Ans=A cookie is a small piece of information which is stored in the client browser. It is used to store user's data in a file permanently (or for the specified time). Cookie has its expiry date and time and removes automatically when gets expire. Django provides built-in methods to set and fetch cookie.
+
+Q16=Difference Between filter and get?
+Ans=The Difference between Django's filter() and get() methods are: get throws an error if there's no object matching the query. ... Basically use get() when you want to get a single unique object, and filter() when you want to get all objects that match your lookup parameters.
+
+Q17=Django Templating?
+Ans=Django provides a convenient way to generate dynamic HTML pages by using its template system.
+A template consists of static parts of the desired HTML output as well as some special syntax describing how dynamic content will be inserted.
+
+Q18=MVC and MVT models
+Ans=MVC has controller that drives both Model and View. MVT has Views for receiving HTTP request and returning HTTP response.The main difference between MVC and MVT is that in a Model View Controller pattern, we have to write all the control specific code. But in an MVT, the controller part is taken care of by the framework itself.
+
+Q19=Django Security Measures
+Ans=Django does a great job at user authentication and authorization. The Django authentication system provides the means for developers to manage users of the system and to define permissions for each user. ... Django also provides CSRF protection by default.
+
+Q20=Pagination
+Ans=Pagination, also known as paging, is the process of dividing a document into discrete pages, either electronic pages or printed pages.agination refers to reducing the number of records from a structured query language (SEQUEL or SQL) query result sets
+
+Q21=Functional Endpoints
+Ans=In principle, functional endpoints (which in the Django Rest Framework are called actions) perform tasks that don't fall under CRUD – for example, sending a password reset request. We've been building an application throughout this series that allows managing loaned items.
+
+Q22=Nested Comprehension
+Ans=Nested list comprehension  
+matrix = [[j for j in range(5)] for i in range(5)]
+
+print(matrix)
