@@ -97,3 +97,48 @@ Ans=Nested list comprehension
 matrix = [[j for j in range(5)] for i in range(5)]
 
 print(matrix)
+
+Q23=What is Numpy
+Ans= NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices. NumPy consumes less memory as compared to Pandas.
+
+Q24=What is Pandas
+Ans=pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
+
+Q25=How bootstrap grid works behind in css (Media query)
+Ans=Bootstrap uses CSS media queries to establish these Responsive Breakpoints. They enable you to control Column behavior at different screen widths. The col-sm-6 means use 6 of 12 columns wide (50%), on a typical small device width (greater than or equal to 768 px)
+
+Q26=Under what conditions do you use Callbacks in JavaScript? 
+Ans=If we want to execute a function right after the return of some other function, then callbacks can be used. JavaScript functions have the type of Objects. So, much like any other objects (String, Arrays etc.), They can be passed as an argument to any other function while calling.
+
+Q27=Event loop. 
+Ans=The call stack is a LIFO queue (Last In, First Out). The event loop continuously checks the call stack to see if there's any function that needs to run. While doing so, it adds any function call it finds to the call stack and executes each one in order
+
+Q28=what is Props drilling
+Ans=Prop Drilling is the process by which you pass data from one part of the React Component tree to another by going through other parts that do not need the data but only help in passing it around . ... This may continue until the data gets to the ComponentNeedingProps .
+
+Q29=find the 2nd highest value from the list 
+Ans=def findLargest(arr):
+	secondLargest = arr[0]
+	largest = arr[0]
+	for i in range(len(arr)):
+		if arr[i] > largest:
+			largest = arr[i]
+
+	for i in range(len(arr)):
+		if arr[i] > secondLargest and arr[i] != largest:
+			secondLargest = arr[i]
+
+	return secondLargest
+
+
+print(findLargest([10, 20, 4, 45, 99]))
+
+Q30=Filtering
+Ans=Django REST Framework's generic list view, by default, returns the entire query sets for a model manager. For real-world applications, it is necessary to filter the queryset to retrieve the relevant results based on the need.
+
+Q31=Generators and Iterators
+Ans=Iterators are used mostly to iterate or convert other objects to an iterator using iter() function. Generators are mostly used in loops to generate an iterator by returning all the values in the loop without affecting the iteration of the loop. Iterator uses iter() and next() functions. Generator uses yield keyword.
+
+Q32=CRUD
+Ans=Django is based on MVT (Model View Template) architecture and revolves around CRUD (Create, Retrieve, Update, Delete) operations. CRUD can be best explained as an approach to building a Django web application. In general CRUD means performing Create, Retrieve, Update and Delete operations on a table in a database
+
