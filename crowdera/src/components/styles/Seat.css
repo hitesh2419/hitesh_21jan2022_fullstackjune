@@ -1,12 +1,3 @@
-.movie-layout{
-    flex-wrap: nowrap;
-}
-.col-md-2{
-    padding: 0px 10px;
-}
-.col-md-6{
-    padding: 0px 25px;
-}
 .seat{
     width: 20px;
     height: 20px;
@@ -14,16 +5,7 @@
     margin: 3px;
     cursor: pointer;
 }
-.seat:hover{
-    transform: scale(1.1);
-}
 .row{
     justify-content: center;
     align-items: flex-start;
-}
-.seat-grey{
-    background-color: #ddd;
-}
-.seat-black{
-    background-color: black;
 }
